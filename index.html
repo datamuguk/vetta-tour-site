@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vetta - Vedan UK and Ireland Tour 2025</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+    }
+
+    .poster-side {
+      flex: 1;
+      background-color: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-shadow: inset -10px 0 30px rgba(255, 0, 0, 0.3);
+    }
+
+    .poster-img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    }
+
+    .content-side {
+      flex: 1;
+      background: #121212;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: inset 10px 0 30px rgba(255, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ff0000;
+      text-shadow: 0 0 8px #ff0000;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #eeeeee;
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      color: #ff3b3b;
+      font-weight: 600;
+    }
+
+    .emoji {
+      font-size: 1.2rem;
+    }
+
+    .dates {
+  margin-top: 2em;
+}
+
+.dates h2 {
+  margin-bottom: 1em;
+  font-size: 1.8rem;
+  color: #ff0000;
+  text-shadow: 0 0 6px #ff0000;
+}
+
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.date-card {
+  background-color: #1a1a1a;
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.date-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+.date-card h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #ff3b3b;
+}
+
+.date-card p {
+  margin-top: 0.5em;
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+    strong {
+      color: #ff3b3b;
+    }
+
+    /* Form Styles */
+    .register-form {
+      margin-top: 2em;
+    }
+
+    .register-form label {
+      display: block;
+      margin-bottom: 0.5em;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .register-form input[type="email"] {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      background: #1f1f1f;
+      color: #fff;
+      margin-bottom: 1em;
+      box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
+    }
+
+    .register-form button {
+      padding: 12px 20px;
+      background: #ff0000;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+    }
+
+    .register-form button:hover {
+      background: #cc0000;
+    }
+
+    @media (max-width: 768px) {
+      .wrapper {
+        flex-direction: column;
+      }
+
+      .poster-side, .content-side {
+        padding: 20px;
+        box-shadow: none;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p, .dates ul {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="poster-side">
+      <img src="VEDAN_ANNOUCEMENT.jpg" alt="Vetta - Vedan UK and Ireland Tour Poster" class="poster-img" />
+    </div>
+    <div class="content-side">
+      <h1>Vetta - Vedan UK and Ireland Tour 2025</h1>
+      <p>Get ready, UK and Ireland! <span class="highlight">Vetta - Vedan's highly anticipated tour</span> is coming your way. <span class="emoji">🎤🇮🇪🇬🇧</span></p>
+      <p>Prepare for a spectacular event focused on high-quality production and an unforgettable experience for all Vedan fans.</p>
+      <p>Watch this space for groundbreaking news! Be the first to know about ticket releases and venue details.</p>
+      <p><strong>Register your interest now</strong> to unlock exclusive early access and ensure you don't miss out on this monumental tour.</p>
+
+
+      <section class="dates" aria-labelledby="dates-heading">
+        <h2 id="dates-heading">Tour Schedule</h2>
+        <div class="date-grid">
+          <div class="date-card">
+            <h3>TBA</h3>
+            <p><strong>Oct 3, 2025</strong></p>
+            <p>London</p>
+          </div>
+          <div class="date-card">
+            <h3>TBA</h3>
+            <p><strong>Oct 4, 2025</strong></p>
+            <p>Manchester</p>
+          </div>
+          <div class="date-card">
+            <h3>TBA</h3>
+            <p><strong>Oct 5, 2025</strong></p>
+            <p>Birmingham</p>
+          </div>
+          <div class="date-card">
+            <h3>TBA</h3>
+            <p><strong>Nov 15, 2025</strong></p>
+            <p>Ireland</p>
+          </div>
+          <div class="date-card">
+            <h3>TBA</h3>
+            <p><strong>Nov 16, 2025</strong></p>
+            <p>Scotland</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Registration Form -->
+      <form class="register-form" onsubmit="event.preventDefault(); alert('Thank you! We will notify you soon.');">
+        <label for="email">Enter your email to register interest:</label>
+        <input type="email" id="email" name="email" placeholder="yourname@example.com" required />
+        <button type="submit">Register Interest</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
